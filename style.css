@@ -50,7 +50,7 @@ body{
     gap: 30px;
     
 }
-@media(max-width:600px){
+@media(max-width:720px){
 
     #nav{
         
@@ -114,7 +114,7 @@ body{
     border: 1px solid white;
     
 }
-@media(max-width:600px){
+@media(max-width:720px){
     #two{
         /* margin-left: 30px; */
     height: 80px;
@@ -231,8 +231,9 @@ body{
     animation-delay: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    z-index: 999999;
 }
-@media(max-width:600px){
+@media(max-width:720px){
     #left svg{
         height: 145px;
         position: relative;
@@ -247,6 +248,7 @@ body{
         animation-iteration-count: infinite;
     }
     #circle{
+        
         height: 10vh;
         width: 10vw;
         background-color: black;
@@ -290,6 +292,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    z-index: 99999999;
 }
 #circle:hover{
     background-color: rgb(255, 255, 255);
@@ -305,7 +308,7 @@ body{
     transition: 0.8s ease-in-out;
 
 }
-@media (max-width:600px){
+@media (max-width:720px){
     #rect{
         height: 100%;
         width: 100%;
@@ -474,7 +477,7 @@ body{
     gap: 70px;
 }
 #footer h1{
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(0, 0, 255, 0.851);
     font-weight: 900;
 }
@@ -512,7 +515,7 @@ body{
     top: 300px;
     
 }
-@media (max-width:600px){
+@media (max-width:720px){
     body{
         overflow-x: hidden;
     }
@@ -555,4 +558,44 @@ body{
         font-size: 20px;
         color: white;
     }
+    #three1 #on1,#off1{
+        position: relative;
+        left: -70%;
+        /* color: white; */
+        /* background-color: white; */
+       margin-top: 20%;
+       height: 30px;
+       
+    }
 }
+#last{
+    height: 50vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    position: relative;
+    /* top: 100%; */
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width:100%;
+    object-fit:cover;
+    height: 100%;
+    /* padding-left: 300px; */
+   
+  }
